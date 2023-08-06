@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+
+  thead {
+    background-color: gray;
+    border: thick solid white;
+  }
+
+  tbody {
+    background-color: lightgray;
+
+    tr {
+      border: thick solid white;
+    }
+  }
+
+  form {
+    .formControl {
+      margin: 10px;
+    }
+  }
+
+  .createNoteButton {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+  }
+
+  .dFlexEnd {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+}
